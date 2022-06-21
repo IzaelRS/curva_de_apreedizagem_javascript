@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Apreendendo JavaScript !!!
+    </title>
+
+    <script type="text/JavaScript" src="script.js">
+
+        </script>
+
+</head>
+
+<body>
+    <div id="area">
+        Bem vindo
+    </div>
+
+    <br />
+    <br />
+
+    <!-- elemento que possibilada pegar uma id e mudar para o que foi escrito no 
+        prompt-->
+
+    <button onclick="document.getElementById('area').innerHTML = 
+        prompt('Qual o seu nome?')" ;> Entrar </button>
+
+    <br />
+    <br />
+
+    <button onclick="document.getElementById('area').innerHTML = 
+        'Bem vindo  ' + prompt('Qual o seu nome?')" ;> Entrar </button>
+
+    <!------------------------------------------------------------------------->
+
+    <br />
+    <br />
+
+    <!--Nomear um button-->
+    <button onclick="this.innerHTML = prompt('Qual nome do botao ?'); "> Qual o meu nome? </button>
+
+</body>
+
+
+</html>
