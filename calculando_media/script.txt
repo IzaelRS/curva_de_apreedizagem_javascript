@@ -1,0 +1,17 @@
+
+
+function conta() {
+    var n1, n2, media;
+    n1 = prompt('DIGITE A PRIMEIRA NOTA: ');
+    n2 = prompt('DIGITE A SEGUNTA NOTA: ');
+
+    media = (parseInt(n1)) + (parseInt(n2)) / 2;
+
+    if (media => 7) {
+        alert('Você esta aprovado');
+    } else {
+        alert('Você esta reprovado')
+    }
+}
+
+//parseInt(); serve para converter um strig em um numero inteiro
